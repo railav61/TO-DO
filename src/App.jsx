@@ -52,7 +52,7 @@ function App() {
         <textarea
           name="task"
           onChange={addnewtask}
-          className="w-[260px] h-8 px-2 sm:px-3 sm:py-4 border-[3px] border-violet-400 rounded-3xl sm:w-[600px] sm:h-16"
+          className="w-[260px] fixed h-8 px-2 sm:px-3 sm:py-4 border-[3px] border-violet-400 rounded-3xl sm:w-[600px] sm:h-16"
           style={{
             overflowY: "scroll", // Enable vertical scrollbar
             WebkitOverflowScrolling: "touch", // Smooth scrolling for WebKit browsers
